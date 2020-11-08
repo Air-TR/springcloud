@@ -1,4 +1,4 @@
-package com.tr.springcloud.client1.controller;
+package com.tr.springcloud.client3.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author TR
  * @version 1.0
- * @date 2020/11/6 上午1:23
+ * @date 2020/11/7 下午1:59
  */
 @RestController
 public class Controller {
@@ -20,7 +20,7 @@ public class Controller {
 
     @GetMapping("/get")
     public String get() {
-        return "response from " + name + "1, port: " + port;
+        return "response from " + name + "3, port: " + port;
     }
 
 }
