@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud" />
+        <module name="turbine" />
         <module name="ribbon-single" />
         <module name="client3" />
         <module name="eureka" />
@@ -25,6 +26,7 @@
       <module name="ribbon" target="1.8" />
       <module name="ribbon-single" target="1.8" />
       <module name="springcloud" target="1.8" />
+      <module name="turbine" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -37,6 +39,7 @@
       <module name="ribbon" options="-parameters" />
       <module name="ribbon-single" options="-parameters" />
       <module name="springcloud" options="-parameters" />
+      <module name="turbine" options="-parameters" />
     </option>
   </component>
 </project>

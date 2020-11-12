@@ -8,3 +8,20 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+
+# Feign的起步依赖中已经包含Hystrix依赖，所以只要在配置文件中开启Hystrix的功能就可以，不需要在pom文件再引入Hystrix
+feign:
+  hystrix:
+    enabled: true
+
+# https://www.cnblogs.com/luas/p/12166607.html  (访问 /hystrix.stream 404)
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream # 或者配置成 '*'
+
+# https://www.jianshu.com/p/0a682e4781b0  (Unable to connect to Command Metric Stream)
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "localhost"

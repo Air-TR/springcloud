@@ -9,3 +9,15 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+
+# https://www.cnblogs.com/luas/p/12166607.html  (访问 /hystrix.stream 404)
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream # 或者配置成 '*'
+
+# https://www.jianshu.com/p/0a682e4781b0  (Unable to connect to Command Metric Stream)
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "localhost"

@@ -20,7 +20,7 @@ public class EurekaClientService {
      * EurekaClientService 类注入EurekaClientFeign 的Bean，通过EurekaClientFeign 去调用feignGetAPI() 方法
      */
     public String get(){
-        return  eurekaClientFeign.feignGetAPI();
+        return eurekaClientFeign.get();
     }
 
 }

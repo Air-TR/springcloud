@@ -22,7 +22,7 @@ public class Controller {
      * @return
      */
     @GetMapping("/eureka-client/get")
-    public String client1Get(){
+    public String get(){
         return eurekaClientService.get();
     }
 
