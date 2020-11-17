@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/ribbon-single/ribbon-single.iml" filepath="$PROJECT_DIR$/ribbon-single/ribbon-single.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>
   </component>
 </project>

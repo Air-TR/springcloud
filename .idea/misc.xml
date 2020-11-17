@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/ribbon-single/pom.xml" />
         <option value="$PROJECT_DIR$/feign/pom.xml" />
         <option value="$PROJECT_DIR$/turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
       </list>
     </option>
   </component>
