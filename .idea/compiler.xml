@@ -8,13 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud" />
         <module name="turbine" />
+        <module name="config-client-local" />
         <module name="ribbon-single" />
+        <module name="springcloud-config-2-3-6" />
         <module name="client3" />
         <module name="eureka" />
         <module name="ribbon" />
         <module name="zuul" />
         <module name="client2" />
         <module name="client1" />
+        <module name="test-bootstrap-240" />
+        <module name="config-server-local" />
         <module name="feign" />
       </profile>
     </annotationProcessing>
@@ -22,11 +26,19 @@
       <module name="client1" target="1.8" />
       <module name="client2" target="1.8" />
       <module name="client3" target="1.8" />
+      <module name="config-client-local" target="1.8" />
+      <module name="config-client-local (1)" target="1.8" />
+      <module name="config-server-local" target="1.8" />
+      <module name="config-server-local (1)" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="feign" target="1.8" />
       <module name="ribbon" target="1.8" />
       <module name="ribbon-single" target="1.8" />
       <module name="springcloud" target="1.8" />
+      <module name="springcloud-config-2-3-6" target="1.8" />
+      <module name="springcloud-config-version-2-3-6" target="1.8" />
+      <module name="test-bootstrap" target="1.8" />
+      <module name="test-bootstrap-240" target="1.8" />
       <module name="turbine" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
@@ -36,11 +48,18 @@
       <module name="client1" options="-parameters" />
       <module name="client2" options="-parameters" />
       <module name="client3" options="-parameters" />
+      <module name="config-client-local" options="-parameters" />
+      <module name="config-client-local (1)" options="-parameters" />
+      <module name="config-server-local" options="-parameters" />
+      <module name="config-server-local (1)" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="feign" options="-parameters" />
       <module name="ribbon" options="-parameters" />
       <module name="ribbon-single" options="-parameters" />
       <module name="springcloud" options="-parameters" />
+      <module name="springcloud-config-2-3-6" options="-parameters" />
+      <module name="test-bootstrap" options="-parameters" />
+      <module name="test-bootstrap-240" options="-parameters" />
       <module name="turbine" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>

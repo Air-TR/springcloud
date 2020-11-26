@@ -1,0 +1,11 @@
+# 结论：被版本坑死了，2.3.6 运行正常，2.4.0 bootstrap 文件无效
+# （具体原因需深入研究 2.4.0 版本的更新，到底 bootstrap.yml 做了什么改动，需要怎样配置才能生效）
+spring:
+  application:
+    name: config-client-local
+  cloud:
+    config:
+      uri: http://localhost:8769
+      fail-fast: true
+  profiles:
+    active: dev
