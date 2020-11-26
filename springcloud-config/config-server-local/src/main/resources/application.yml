@@ -1,3 +1,6 @@
+server:
+  port: 8769
+
 spring:
   cloud:
     config:
@@ -8,6 +11,3 @@ spring:
     active: native
   application:
     name: config-server-local
-
-server:
-  port: 8769

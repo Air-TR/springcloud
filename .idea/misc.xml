@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/springcloud-config/config-client-local/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-config/config-server-local/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-config-2-3-6/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-config/config-server-github/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-config-2-3-6/config-server-remote/pom.xml" />
       </list>
     </option>
   </component>

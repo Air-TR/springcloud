@@ -17,8 +17,10 @@
         <module name="zuul" />
         <module name="client2" />
         <module name="client1" />
+        <module name="config-server-github" />
         <module name="test-bootstrap-240" />
         <module name="config-server-local" />
+        <module name="config-server-remote" />
         <module name="feign" />
       </profile>
     </annotationProcessing>
@@ -28,8 +30,10 @@
       <module name="client3" target="1.8" />
       <module name="config-client-local" target="1.8" />
       <module name="config-client-local (1)" target="1.8" />
+      <module name="config-server-github" target="1.8" />
       <module name="config-server-local" target="1.8" />
       <module name="config-server-local (1)" target="1.8" />
+      <module name="config-server-remote" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="feign" target="1.8" />
       <module name="ribbon" target="1.8" />
@@ -50,8 +54,10 @@
       <module name="client3" options="-parameters" />
       <module name="config-client-local" options="-parameters" />
       <module name="config-client-local (1)" options="-parameters" />
+      <module name="config-server-github" options="-parameters" />
       <module name="config-server-local" options="-parameters" />
       <module name="config-server-local (1)" options="-parameters" />
+      <module name="config-server-remote" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="feign" options="-parameters" />
       <module name="ribbon" options="-parameters" />
