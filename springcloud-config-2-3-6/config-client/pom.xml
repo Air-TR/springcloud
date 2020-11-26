@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tr.springcloud</groupId>
-	<artifactId>config-client-local</artifactId>
+	<artifactId>config-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>config-client-local</name>
+	<name>config-client</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

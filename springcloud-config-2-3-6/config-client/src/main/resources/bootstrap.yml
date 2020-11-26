@@ -1,0 +1,14 @@
+# 2.4.0 以上版本暂时没有找到如何配置使 bootstrap.yml 生效
+# 本项目版本 2.3.6，bootstrap.yml 启动正常生效
+server:
+  port: 8762
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      uri: http://localhost:8769
+      fail-fast: true
+  profiles:
+    active: dev

@@ -1,10 +1,10 @@
-package com.tr.springcloud.configclientlocal;
+package com.tr.springcloud.configclient;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ConfigClientLocalApplicationTests {
+class ConfigClientApplicationTests {
 
 	@Test
 	void contextLoads() {
